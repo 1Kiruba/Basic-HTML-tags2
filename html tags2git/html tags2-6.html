@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            form{
+                padding-bottom: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Customer Enquiry !!!</h1>
+        <form action="">
+            <fieldset>
+                <legend>Basic details:</legend>
+                <div>
+                    <label for="nm">Name: </label>
+                    <input type="text" name="nm" autocomplete="off" placeholder="Enter the name">
+                </div>
+                <div>
+                    <label for="eml">Email: </label>
+                    <input type="email" name="eml" autocomplete="off">
+                </div>
+            </fieldset>
+        </form>
+        <div>
+            <label for="DOB">Birthdate: </label>
+            <input type="date" name="DOB" autocomplete="off">
+        </div>
+        <div>
+            <label for="ph">Phone</label>
+            <input type="tel" name="ph" autocomplete="off">
+        </div>
+        <div>
+            <label for="mar">Are you married</label>
+            <input type="checkbox" name="mar" value="married">
+        </div>
+        <div>
+            <label for="tm">When to call?</label>
+            <label>Morning: </label>
+            <input type="radio" value="morning" name="tm">
+            <label>| Noon: </label>
+            <input type="radio" value="noon" name="tm">
+            <label>| Evening: </label>
+            <input type="radio" value="evening" name="tm">
+        </div>
+        <button>Send</button>
+    </body>
+</html>
